@@ -1,3 +1,5 @@
+import firstImage from '../assests/images/180ae7a0bcf7.png';
+import secondImage from '../assests/images/e9cd846dc748.png';
 const Register = () => {
 	return (
 		<div className='container'>
@@ -35,9 +37,17 @@ const Register = () => {
 				</div>
 			</div>
 			<div className='login-section'>
-				<p className="account-login">Have an account? Log in</p>
+				<p className='account-login'>Have an account? Log in</p>
 			</div>
-			<div className='advart-section'></div>
+			<div className='advart-section'>
+				<div className='discription-text-section'>
+					<p>Get the app.</p>
+				</div>
+				<div className='image-secction'>
+					<img src={firstImage} alt='download from appstore' />
+					<img src={secondImage} alt='download form playstore' />
+				</div>
+			</div>
 		</div>
 	);
 };
