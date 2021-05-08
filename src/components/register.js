@@ -48,6 +48,20 @@ const Register = () => {
 					<img src={secondImage} alt='download form playstore' />
 				</div>
 			</div>
+			<div className='footer-section'>
+				<div className='links'>
+					<p>About</p>
+					<p>Blog</p>
+					<p>Jobs</p>
+					<p>Help</p>
+					<p>API</p>
+					<p>Privacy</p>
+					<p>Terms</p>
+					<p>Top Accounts</p>
+					<p>Hashtags</p>
+					<p>Location</p>
+				</div>
+			</div>
 		</div>
 	);
 };
