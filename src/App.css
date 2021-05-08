@@ -34,6 +34,7 @@
 .registration-header {
 	width: auto;
 	margin-bottom: auto;
+	font-family: 'Norican', cursive;
 }
 
 .registration-form-section {
@@ -208,4 +209,22 @@ input {
 
 img {
 	width: 110px;
+}
+
+.footer-section{
+	width: 500px;
+	height: 88px;
+}
+
+.links{
+	display: flex;
+	justify-content: center;
+
+}
+
+p{
+	font-size: 10px;
+	margin-right: 9px;
+	line-height: 19px;
+	color: rgba(var(--f52, 142, 142, 142), 1);
 }
