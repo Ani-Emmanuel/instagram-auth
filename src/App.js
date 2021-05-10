@@ -6,48 +6,20 @@ function App() {
 	return (
 		<div className='App'>
 			<Switch>
-				<Route exact path='/'>
-					<Register />
-				</Route>
-				<Route path='/terms'>
-					<NotFound />
-				</Route>
-				<Route path='/data-policy'>
-					<NotFound />
-				</Route>
-				<Route path='/cookies-policy'>
-					<NotFound />
-				</Route>
-				<Route path='/login'>
-					<NotFound />
-				</Route>
-				<Route path='/about'>
-					<NotFound />
-				</Route>
-				<Route path='/blog'>
-					<NotFound />
-				</Route>
-				<Route path='/jobs'>
-					<NotFound />
-				</Route>
-				<Route path='/help'>
-					<NotFound />
-				</Route>
-				<Route path='/api'>
-					<NotFound />
-				</Route>
-				<Route path='/privacy'>
-					<NotFound />
-				</Route>
-				<Route path='/top-accounts'>
-					<NotFound />
-				</Route>
-				<Route path='/hashtags'>
-					<NotFound />
-				</Route>
-				<Route path='/location'>
-					<NotFound />
-				</Route>
+				<Route exact path='/' component={Register} />
+				<Route path='/terms' component={NotFound} />
+				<Route path='/data-policy' component={NotFound} />
+				<Route path='/cookies-policy' component={NotFound} />
+				<Route path='/login' component={NotFound} />
+				<Route path='/about' component={NotFound} />
+				<Route path='/blog' component={NotFound} />
+				<Route path='/jobs' component={NotFound} />
+				<Route path='/help' component={NotFound} />
+				<Route path='/api' component={NotFound} />
+				<Route path='/privacy' component={NotFound} />
+				<Route path='/top-accounts' component={NotFound} />
+				<Route path='/hashtags' component={NotFound} />
+				<Route path='/location' component={NotFound} />
 			</Switch>
 		</div>
 	);
